@@ -1,0 +1,44 @@
+{
+  "name": "Loterías Argentina",
+  "short_name": "Loterías AR",
+  "description": "Resultados de Telekino, Quini 6 y Loto - Lotería Nacional Argentina",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#0e2840",
+  "theme_color": "#1a3a5c",
+  "orientation": "portrait",
+  "scope": "/",
+  "lang": "es-AR",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["entertainment", "utilities"],
+  "shortcuts": [
+    {
+      "name": "Telekino",
+      "url": "/index.html#telekino",
+      "description": "Ver resultados Telekino"
+    },
+    {
+      "name": "Quini 6",
+      "url": "/index.html#quini",
+      "description": "Ver resultados Quini 6"
+    },
+    {
+      "name": "Loto",
+      "url": "/index.html#loto",
+      "description": "Ver resultados Loto"
+    }
+  ]
+}
